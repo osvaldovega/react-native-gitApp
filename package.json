@@ -1,0 +1,27 @@
+{
+  "name": "gitApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "go": "react-native run-ios --simulator='iPhone X'",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "buffer": "^5.0.8",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1",
+    "react": "16.0.0",
+    "react-native": "0.51.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.0.4",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.15.0",
+    "jest": "22.0.4",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
